@@ -1,0 +1,3 @@
+[submodule "cost_model/supply_chain"]
+	path = cost_model/supply_chain
+	url = https://github.com/PrincetonUniversity/ttm-cas

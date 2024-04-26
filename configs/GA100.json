@@ -1,0 +1,72 @@
+{
+    "name": "NVIDIA A100(80GB)x4",
+    "device_count": 4,
+    "interconnect": {
+        "link": {
+            "name": "NVLink3",
+            "bandwidth_per_direction_byte": 25e9,
+            "bandwidth_both_directions_byte": 50e9,
+            "latency_second": 8.92e-6,
+            "flit_size_byte": 16,
+            "header_size_byte": 16,
+            "max_payload_size_byte": 256
+        },
+        "link_count_per_device": 12,
+        "topology": "FC"
+    },
+    "device": {
+        "frequency_Hz": 1410e6,
+        "compute_chiplet_count": 1,
+        "compute_chiplet": {
+            "physical_core_count": 128,
+            "core_count": 128,
+            "process_node": "7nm",
+            "core": {
+                "sublane_count": 4,
+                "systolic_array": {
+                    "array_width": 16,
+                    "array_height": 16,
+                    "data_type": "fp16",
+                    "mac_per_cycle": 1
+                },
+                "vector_unit": {
+                    "vector_width": 32,
+                    "flop_per_cycle": 4,
+                    "data_type": "fp16",
+                    "int32_count": 16,
+                    "fp16_count": 0,
+                    "fp32_count": 16,
+                    "fp64_count": 8
+                },
+                "register_file": {
+                    "num_reg_files": 1,
+                    "num_registers": 16384,
+                    "register_bitwidth":32,
+                    "num_rdwr_ports":4
+                },
+                "SRAM_KB": 192
+            }
+        },
+        "memory_protocol": "HBM2e",
+        "_memory_protocol_list": [
+            "HBM2e",
+            "DDR4",
+            "DDR5",
+            "PCIe4",
+            "PCIe5"
+        ],
+        "io": {
+            "process_node": "7nm",
+            "global_buffer_MB": 48,
+            "physical_global_buffer_MB": 48,
+            "global_buffer_bandwidth_per_cycle_byte": 5120,
+            "memory_channel_physical_count": 6,
+            "memory_channel_active_count": 5,
+            "pin_count_per_channel": 1024,
+            "bandwidth_per_pin_bit": 3.2e9
+        },
+        "memory": {
+            "total_capacity_GB": 80
+        }
+    }
+}

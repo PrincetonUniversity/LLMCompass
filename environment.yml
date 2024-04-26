@@ -1,0 +1,12 @@
+name: llmcompass_ae
+channels:
+  - pytorch
+  - defaults
+dependencies:
+  - python=3.9
+  - pytorch
+  - pip:
+    - scalesim
+    - matplotlib
+    - seaborn
+    - scipy
