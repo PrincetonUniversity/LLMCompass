@@ -25,8 +25,8 @@ $ pip3 install scipy
 
 ### If using Github
 ```
-$ git clone https://github.com/HenryChang213/LLMCompass_ISCA_AE.git
-$ cd LLMCompass_ISCA_AE
+$ git clone -b ISCA_AE https://github.com/PrincetonUniversity/LLMCompass
+$ cd LLMCompass
 $ git submodule init
 $ git submodule update --recursive
 ```
