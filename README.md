@@ -6,7 +6,19 @@ This repository provides the implementation of **LLMCompass** from the following
 
 **LLMCompass: Enabling Efficient Hardware Design for Large Language Model Inference**
 
-*Hengrui Zhang, August Ning, Rohan Prabhakar, David Wentzlaff*
+*Hengrui Zhang, August Ning, Rohan Baskar Prabhakar, David Wentzlaff*
+
+
+To appear in the Proceedings of the 51st Annual International Symposium on Computer Architecture:
+
+```
+@inproceedings{LLMCompass,
+author = {Zhang, Hengrui and Ning, August and Prabhakar, Rohan Baskar and Wentzlaff, David},
+title = {LLMCompass: Enabling Efficient Hardware Design for Large Language Model Inference},
+year = {2024},
+booktitle = {Proceedings of the 51st Annual International Symposium on Computer Architecture},
+}
+```
 
 
 ## Set up the environment
