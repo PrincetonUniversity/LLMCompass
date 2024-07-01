@@ -4,12 +4,12 @@
 
 This repository provides the implementation of **LLMCompass** from the following papers:
 
-**LLMCompass: Enabling Efficient Hardware Design for Large Language Model Inference**
+[**LLMCompass: Enabling Efficient Hardware Design for Large Language Model Inference**](https://parallel.princeton.edu/papers/isca24_llmcompass.pdf)
 
 *Hengrui Zhang, August Ning, Rohan Baskar Prabhakar, David Wentzlaff*
 
 
-To appear in the Proceedings of the 51st Annual International Symposium on Computer Architecture:
+In the Proceedings of the 51st Annual International Symposium on Computer Architecture:
 
 ```
 @inproceedings{LLMCompass,
@@ -52,7 +52,7 @@ A Dockerfile has been provided (`./Dockerfile`), including all the software depe
 
 A docker image has been provided [here](https://github.com/HenryChang213/LLMCompass_ISCA_AE_docker).
 
-## Experiment workflow
+## AE Experiment workflow
 ```
 # Figure 5 (around 100 min) 
 $ cd ae/figure5
@@ -87,9 +87,14 @@ $ cd ae/figure12
 $ bash run_figure12.sh
 ```
 
-## Expected result
+## AE Expected result
 
 After running each script above, the corresponding figures
 will be generated under the corresponding directory as suggested by its name.
 
 For comparison, a copy of the expected results can be found in `ae\expected_results`
+
+
+## User Guide
+
+A guide on "How to Run a LLMCompass Simulation" is shown [here](./docs/run.md).
