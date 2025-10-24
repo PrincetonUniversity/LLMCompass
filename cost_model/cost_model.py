@@ -82,7 +82,7 @@ NVLINK4 = 'NVLink4'
 INFINITYFABRIC = 'InfinityFabric'
 
 # average via dramexchange spot price, Oct 2023
-ddr5_cost_per_gb = 0.30
+ddr5_cost_per_gb = 2.4
 hbm_cost_per_gb = 7
 
 # return die area for a dimension x dimension SA with a
